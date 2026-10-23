@@ -1,0 +1,17 @@
+﻿file_path,filename,true_class,predicted_class,confidence,confidence_percent,proba_origine,proba_repeint
+/content/dataset_final_splits_v2/test/origine/image_186.jpeg,image_186.jpeg,origine,repeint,0.6097655296325684,60.97655487060547,0.39023450016975403,0.6097655296325684
+/content/dataset_final_splits_v2/test/origine/image_188.jpeg,image_188.jpeg,origine,repeint,0.5174922943115234,51.749229431152344,0.48250773549079895,0.5174922943115234
+/content/dataset_final_splits_v2/test/repeint/image_015.jpeg,image_015.jpeg,repeint,origine,0.6607316732406616,66.07316589355469,0.6607316732406616,0.339268296957016
+/content/dataset_final_splits_v2/test/repeint/image_016.jpeg,image_016.jpeg,repeint,origine,0.6920514106750488,69.20513916015625,0.6920514106750488,0.30794858932495117
+/content/dataset_final_splits_v2/test/repeint/image_017.jpeg,image_017.jpeg,repeint,origine,0.6483811736106873,64.83811950683594,0.6483811736106873,0.35161876678466797
+/content/dataset_final_splits_v2/test/repeint/image_018.jpeg,image_018.jpeg,repeint,origine,0.7140007615089417,71.40007781982422,0.7140007615089417,0.28599923849105835
+/content/dataset_final_splits_v2/test/repeint/image_019.jpeg,image_019.jpeg,repeint,origine,0.7186384797096252,71.86384582519531,0.7186384797096252,0.28136152029037476
+/content/dataset_final_splits_v2/test/repeint/image_020.jpeg,image_020.jpeg,repeint,origine,0.7133932113647461,71.33932495117188,0.7133932113647461,0.2866068184375763
+/content/dataset_final_splits_v2/test/repeint/image_239.jpeg,image_239.jpeg,repeint,origine,0.7140007615089417,71.40007781982422,0.7140007615089417,0.28599923849105835
+/content/dataset_final_splits_v2/test/repeint/image_240.jpeg,image_240.jpeg,repeint,origine,0.6607316732406616,66.07316589355469,0.6607316732406616,0.339268296957016
+/content/dataset_final_splits_v2/test/repeint/image_241.jpeg,image_241.jpeg,repeint,origine,0.6920514106750488,69.20513916015625,0.6920514106750488,0.30794858932495117
+/content/dataset_final_splits_v2/test/repeint/image_242.jpeg,image_242.jpeg,repeint,origine,0.6483811736106873,64.83811950683594,0.6483811736106873,0.35161876678466797
+/content/dataset_final_splits_v2/test/repeint/image_243.jpeg,image_243.jpeg,repeint,origine,0.7117196917533875,71.17196655273438,0.7117196917533875,0.28828033804893494
+/content/dataset_final_splits_v2/test/repeint/image_244.jpeg,image_244.jpeg,repeint,origine,0.7186384797096252,71.86384582519531,0.7186384797096252,0.28136152029037476
+/content/dataset_final_splits_v2/test/repeint/image_245.jpeg,image_245.jpeg,repeint,origine,0.7133932113647461,71.33932495117188,0.7133932113647461,0.2866068184375763
+/content/dataset_final_splits_v2/test/repeint/image_246.jpeg,image_246.jpeg,repeint,origine,0.6949461698532104,69.49461364746094,0.6949461698532104,0.30505383014678955

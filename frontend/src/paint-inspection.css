@@ -1,0 +1,53 @@
+.paint-page { min-height: 100dvh; height: 100dvh; padding: 20px 24px; overflow: hidden; box-sizing: border-box; color: var(--fg-default); }
+.paint-shell { display: flex; flex-direction: column; width: min(1180px, 100%); height: 100%; min-height: 0; margin: 0 auto; }
+.paint-header { flex: 0 0 auto; margin-bottom: 8px; }
+.paint-back-button { margin-bottom: 12px; }
+.paint-eyebrow { color: var(--violet-600); font-size: var(--text-xs); font-weight: var(--fw-semi); letter-spacing: var(--tracking-caps); text-transform: uppercase; }
+.paint-header h1 { margin-top: 4px; }
+.paint-intro { max-width: 680px; margin-top: 6px; color: var(--fg-muted); }
+.paint-workspace { display: grid; flex: 1 1 auto; min-height: 0; height: auto; grid-template-columns: minmax(0, 1fr) 320px; gap: 16px; }
+.paint-left-column, .result-panel { min-height: 0; height: 100%; box-sizing: border-box; overflow: hidden; }
+.paint-input-card, .paint-crop-card, .paint-result-card, .paint-result-placeholder { width: 100%; min-width: 0; padding: 12px; border: 1px solid #EDE9FE; border-radius: 16px; background: #FFFFFF; box-shadow: 0 2px 16px rgba(109, 40, 217, 0.07); box-sizing: border-box; }
+.paint-input-card { display: flex; flex-direction: column; }
+.paint-crop-card { margin-top: 10px; }
+.file-picker { display: block; padding: 12px; border: 1px dashed var(--border-strong); border-radius: 10px; cursor: pointer; }
+.file-picker input { display: block; width: 100%; margin-top: 12px; }
+.picker-title { display: block; font-weight: var(--fw-bold); }
+.picker-hint, .file-name, .paint-experimental-note { display: block; margin-top: 6px; color: var(--fg-muted); font-size: var(--text-sm); }
+.preview-frame { display: flex; align-items: center; justify-content: center; width: 100%; height: 210px; min-height: 0; margin-top: 12px; overflow: hidden; border-radius: 10px; background: #F5F3FF; }
+.preview-frame img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+.empty-preview { display: flex; align-items: center; justify-content: center; width: 100%; height: 210px; min-height: 0; margin-top: 12px; border: 1px solid var(--border-soft); border-radius: 10px; background: #F5F3FF; color: var(--fg-muted); }
+.paint-crop-card h2 { margin: 0 0 8px; color: #1E1B4B; font-size: 15px; font-weight: 800; }
+.crop-preview-frame { display: flex; align-items: center; justify-content: center; width: 100%; height: 140px; overflow: hidden; border-radius: 10px; background: #F5F3FF; }
+.crop-preview-frame img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+.crop-note { margin: 7px 0 0; color: #6B7280; font-size: 0.88rem; line-height: 1.35; }
+.validate-button, .paint-reset-button { width: 100%; margin-top: 10px; padding: 10px 18px; border: 0; border-radius: var(--radius-sm); background: linear-gradient(135deg, var(--grad-violet-start), var(--grad-violet-end)); color: #fff; font-weight: var(--fw-bold); }
+.validate-button:disabled { cursor: not-allowed; opacity: .45; }
+.paint-loading-message, .paint-error-message { margin-top: 14px; font-size: var(--text-sm); }
+.paint-error-message { color: var(--danger-600); }
+.result-panel { min-width: 0; }
+.paint-result-placeholder { min-height: 0; height: 100%; }
+.paint-result-placeholder > span { color: var(--violet-500); font-family: var(--font-mono); font-weight: var(--fw-bold); }
+.paint-result-placeholder h2 { margin-top: 28px; font-size: var(--text-2xl); }
+.paint-result-placeholder p { margin-top: 10px; color: var(--fg-muted); }
+.paint-result-card h2 { margin-top: 8px; font-size: var(--text-3xl); text-transform: capitalize; }
+.paint-confidence, .paint-probability-row > div:first-child { display: flex; justify-content: space-between; gap: 16px; }
+.paint-confidence { margin: 18px 0; padding-bottom: 14px; border-bottom: 1px solid var(--border-soft); }
+.paint-probability-row { margin-top: 14px; }
+.paint-probability-bar { height: 8px; margin-top: 8px; overflow: hidden; border-radius: var(--radius-pill); background: var(--violet-100); }
+.paint-probability-bar span { display: block; height: 100%; background: var(--violet-500); }
+.paint-probability-bar.repeint span { background: var(--warning-500); }
+
+@media (max-width: 820px) {
+  .paint-page { padding: 20px 16px; }
+  .paint-workspace { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 760px) {
+  .paint-page { height: auto; min-height: 100vh; overflow: visible; padding: 16px; }
+  .paint-shell { height: auto; }
+  .paint-workspace { height: auto; grid-template-columns: 1fr; }
+  .paint-input-card, .paint-crop-card, .result-panel { height: auto; overflow: visible; }
+  .preview-frame, .empty-preview { height: 220px; }
+  .crop-preview-frame { height: 180px; }
+}

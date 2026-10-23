@@ -1,0 +1,47 @@
+:root {
+  color-scheme: light;
+  --violet-100: #EDE6FF;
+  --violet-500: #7C5CFF;
+  --violet-600: #6A45F2;
+  --violet-700: #5A35DB;
+  --grad-violet-start: #8B6BFF;
+  --grad-violet-end: #5A35DB;
+  --border-soft: #ECE7F8;
+  --border-strong: #C3B7E2;
+  --danger-600: #DC2626;
+  --warning-500: #F59E0B;
+  --fg-default: #1E1B36;
+  --fg-muted: #6E6987;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --fw-bold: 700;
+  --fw-semi: 600;
+  --radius-pill: 999px;
+  --radius-sm: 10px;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --tracking-caps: 0.12em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #F8F5FF;
+  color: var(--fg-default);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}

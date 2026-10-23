@@ -1,0 +1,13 @@
+{
+  "name": "paint-inspection-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interface web de qualification des pièces repeintes.",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "dev:open": "node scripts/dev-server.mjs --open",
+    "preview": "node scripts/dev-server.mjs --port 4173"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

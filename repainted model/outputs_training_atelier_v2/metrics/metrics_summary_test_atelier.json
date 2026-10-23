@@ -1,0 +1,33 @@
+{
+  "dataset_source": "MALLOULIAUTO_dataset_atelier",
+  "dataset_type": "proprietary_pilot",
+  "smartphone": "Redmi Note 12",
+  "module": "Apexel",
+  "input_size": [
+    384,
+    384
+  ],
+  "classes": [
+    "origine",
+    "repeint"
+  ],
+  "positive_class_for_auc": "repeint",
+  "n_test_images": 51,
+  "test_loss": 0.8098499178886414,
+  "test_accuracy_keras": 0.686274528503418,
+  "accuracy_sklearn": 0.6862745098039216,
+  "balanced_accuracy": 0.713166144200627,
+  "precision_macro": 0.7352941176470589,
+  "recall_macro": 0.713166144200627,
+  "f1_macro": 0.6832298136645962,
+  "precision_origine": 0.5882352941176471,
+  "recall_origine": 0.9090909090909091,
+  "f1_origine": 0.7142857142857143,
+  "precision_repeint": 0.8823529411764706,
+  "recall_repeint": 0.5172413793103449,
+  "f1_repeint": 0.6521739130434783,
+  "auc_repeint": 0.6755485893416928,
+  "n_errors": 16,
+  "error_rate": 0.3137254901960784,
+  "timestamp": "2026-08-24T10:39:58.245186"
+}
